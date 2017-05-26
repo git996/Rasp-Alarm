@@ -1,4 +1,4 @@
-#script by iamnewdev
+#script by iamnewdev/git996
 
 from datetime import date
 from datetime import time
