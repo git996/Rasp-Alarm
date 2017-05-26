@@ -1,3 +1,5 @@
 # Rasp-Alarm
-A simple alarm written in Python3 for my Raspberry Pi.
-Rasp-Alarm is a small script written to run on my Raspberry Pi 3B. It uses pygame module for the alarm audio.
+A simple alarm written in Python3 for my Raspberry Pi3B to replace my not so loud and snoozleable phone alarm.
+
+It uses pygame module for the alarm audio.
+The script randomly selects the alarm  tone/song from a list of 6 named song1, song2...etc. 
