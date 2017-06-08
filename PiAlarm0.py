@@ -17,13 +17,9 @@ def main():
  
 def alarmTime():
     t1 = '07:30:00'
-    t2 = '13:18:30'
+    t2 = '16:38:30'
     return t2
 	
-def tones():
-    url0 ="https://www.pandora.com/stations/"
-    
-    return url0;
 	
 def runAlarm():
 
@@ -33,9 +29,10 @@ def runAlarm():
        
     if al1== alarmTime():    
 
-        x = randint(1,6)
+        x = randint(1,119) 
+        
         mixer.init()
-        mixer.music.load('C:/Users/New/Dropbox/Apps/New folder/song%d.mp3'% x)
+        mixer.music.load('C:/Users/New/Music/im/iMusic/song (%d).mp3'% x)
         mixer.music.play()            
         print('ALARM! ALARM!')    
         sleep(180)           
